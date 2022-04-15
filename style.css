@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+}
+@media (min-width:600px){
+body{
+    font-size: 18px;
+    max-width: 1440px;
+    margin:auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+}
+
+.c-symbol img{
+    width: 7%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.main h3{
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 1rem;
+    
+}
+.main1 h3{
+    font-size: 34px;
+}
+.paragraph{
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+}
+.para1{
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-bottom: 1.5rem;
+    
+}
+.para2{
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
+.button div{
+    display: inline-block;
+    margin-bottom: 4rem;
+    margin-right: 2rem;
+}
+.ios-btn{
+     background-color: var(--Strong-Cyan);
+     padding: 10px;
+     max-width: fit-content;
+     border-radius: 1.5rem;
+     
+}
+.mac-btn{
+     background-color: var(--Light-Blue);
+     padding: 10px;
+     max-width: fit-content;
+     border-radius: 1.5rem;
+}
+.background{
+    background-image: url(./images/bg-header-desktop.png),linear-gradient(0deg, rgba(255,255,255,0.5324511201839882) 21%, rgba(159,171,178,0.8125814133435973) 100%);
+    padding-bottom: 3rem;
+}
+
+.mac-pc-contents nav{
+    display: inline-block;
+}
+.mac-pc-contents{
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+}
+.mac-pc-contents nav img{
+    width:25rem;
+    position: relative;
+    right: 3rem;
+}
+.mac-side{
+    width:35rem;
+    position: relative;
+    bottom:5rem;
+    left: 3rem;
+    text-align: left;
+}
+.para3, .para4, .para5{
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.para6{
+    margin-left: 25rem;
+    margin-right:25rem;
+    margin-bottom: 3rem;
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+}
+.mac-pc2 img{
+    width:35rem;
+}
+.grid1 nav{
+    display: inline-block;
+    width: 23rem;
+    height: fit-content;
+}
+.para7{
+    margin-bottom: 3rem;
+}
+.grid2 img{
+    margin-top: 5rem;
+    margin-right: 4rem;
+    margin-bottom: 5rem;
+}
+.para11{
+    margin-left: 28rem;
+    margin-right: 28rem;
+    margin-bottom: 5rem;
+}
+footer div{
+    display: inline-block;
+}
+.list p{
+    display: inline-block;
+    color: var(--Dark-Grayish-Blue);
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 3rem;
+}
+.list{
+    width: 50rem;
+}
+.logo img{
+    width: 60%;
+    margin-right: 3rem;
+    position: relative;
+    top: 1rem;
+}
+.icons a img{
+    width: 3rem;
+    margin-right: 1rem;
+    position: relative;
+    bottom: 1rem;
+}
+footer{
+    background-color: rgb(209, 208, 208);
+    padding-top: 2rem;
+}
+footer nav{
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--Dark-Grayish-Blue);
+    padding-bottom: 1rem;
+}
+}
+@media (max-width:600px){
+    body{
+    font-size: 18px;
+    max-width: 600px;
+    margin:auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+}
+
+.c-symbol img{
+    width: 7%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.main h3{
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    
+}
+.main1 h3{
+    font-size: 34px;
+}
+.paragraph{
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+}
+.para1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.para2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.button div{
+    display: inline-block;
+    margin-bottom: 4rem;
+    margin-right: 1rem;
+}
+.ios-btn{
+     background-color: var(--Strong-Cyan);
+     padding: 10px;
+     max-width: fit-content;
+     border-radius: 1.5rem;
+     
+}
+.mac-btn{
+     background-color: var(--Light-Blue);
+     padding: 10px;
+     max-width: fit-content;
+     border-radius: 1.5rem;
+}
+.background{
+    background-image: url(./images/bg-header-desktop.png),linear-gradient(0deg, rgba(255,255,255,0.5324511201839882) 21%, rgba(159,171,178,0.8125814133435973) 100%);
+    padding-bottom: 3rem;
+}
+
+.mac-pc-contents nav
+.mac-pc-contents{
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+}
+.mac-pc-contents nav img{
+    width:20rem;
+    margin-bottom: 2rem;
+}
+.mac-side{
+    width:20rem;
+    bottom:5rem;
+    margin-left: 5rem;
+    margin-right: rem;
+    
+}
+.para3, .para4, .para5{
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.para6{
+    margin-left: 3rem;
+    margin-right:3rem;
+    margin-bottom: 3rem;
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+}
+.mac-pc2 img{
+    width:25rem;
+}
+.grid1 nav{
+    margin-top: 1rem;
+    width: 23rem;
+    margin-left: 3rem;
+}
+.para7{
+    margin-bottom: 3rem;
+}
+.grid2 img{
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+.grid2{
+    margin-top: 3rem;
+}
+.para11{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+.list p{
+    color: var(--Dark-Grayish-Blue);
+    margin-bottom: 3rem;
+}
+.list{
+    margin-top: 2rem;
+    
+}
+.logo img{
+    width: 20%;
+}
+.icons a img{
+    width: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+footer{
+    background-color: rgb(209, 208, 208);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+footer nav{
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--Dark-Grayish-Blue);
+    padding-bottom: 1rem;
+}
+}
