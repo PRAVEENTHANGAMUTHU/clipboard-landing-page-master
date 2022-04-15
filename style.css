@@ -228,8 +228,11 @@ footer nav{
     background-image: url(./images/bg-header-desktop.png),linear-gradient(0deg, rgba(255,255,255,0.5324511201839882) 21%, rgba(159,171,178,0.8125814133435973) 100%);
     padding-bottom: 3rem;
 }
+.mac-pc-contents div{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
-.mac-pc-contents nav
 .mac-pc-contents{
     margin-bottom: 3rem;
     margin-top: 6rem;
